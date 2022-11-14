@@ -16,6 +16,12 @@ public class Run {
 		//af.method12();
 		//af.method13();
 		//af.method14();
-		af.method16();
+		//af.method16();
+		
+		B_While bw = new B_While();
+		//bw.method1();
+		//bw.method2();
+		bw.method7();
+		
 	}
 }

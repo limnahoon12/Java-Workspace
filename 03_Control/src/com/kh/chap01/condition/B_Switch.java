@@ -100,7 +100,8 @@ public class B_Switch {
 	 case "바나나" : System.out.println("바나나는 2000원"); break;
 	 case "복숭아" : System.out.println("복숭아는 5000원"); break;
 	 default: System.out.println("저희 가게에서 판매하는 과일이 아닙니다.");
-	  }
+	 }
+  
   }
 	 
 	//System.out.printf("%s의 가격은 %d원입니다. \n", result, price);

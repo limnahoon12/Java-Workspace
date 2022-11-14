@@ -29,7 +29,7 @@ public class A_For {
 	 * for문을 만나는 순간
 	 * 초기식(딱 한번 실행시킴) -> 조건식(조건검사) -> true일 경우 실행할코드 실행-> 증감식
 	 * 		->조건식(조건검사) -> true일 경우 실행할코드 실행 -> 증감식
-	 * 		->조건식(조건검사) -> true? 실행할코드 실행 -> 증감식 ...
+	 * 		->조건식(조건검사) -> true? 실행할코드 실행 -> 증감식 ... 
 	 * 		-> 조건식(조건검사) -> false일경우 실행할 코드 실행 x
 	 * 매번 조건식의 조건검사 결과값을 가지고 조건이 true일 경우만 반복해서 실행한다.
 	 * 
@@ -320,7 +320,7 @@ public class A_For {
  public void method16() {
 	 //2단부터 ~9단까지 모두~ 출력
 	 
-	 int dan = 2;
+	 
 	 
 //	 System.out.printf("---%d 단 --- \n", dan);
 //	 for(int i=1; i<=9; i++) {
@@ -328,7 +328,7 @@ public class A_For {
 //	 }
 	 
 	 
-	 for(; dan<=9; dan++) {
+	 for(int dan=2; dan<=9; dan++) {
 		 System.out.printf("---%d 단 --- \n", dan);
 		 for(int i=1; i<=9; i++) {
 			 System.out.printf("%d X %d = %d \n", dan, i, (dan*i));
