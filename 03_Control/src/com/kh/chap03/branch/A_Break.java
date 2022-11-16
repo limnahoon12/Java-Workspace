@@ -19,7 +19,7 @@ public void method1() {
 	
 	while(true) {
 		//랜덤값을 추출
-		int random = (int) (Math.random() * 100 + 1);
+		int random = (int) (Math.random() * 100 + 1); 
 		//랜덤값을 출력
 		System.out.println("random : "+random);
 		//랜덤값이 3의배수인지 검사
