@@ -207,7 +207,7 @@ public class A_For {
 		// 0123
 		
 		// 마지막 인덱스는 문자열의 길이 -1
-		// 추출하고자하는 인덱스의 값으 범위는
+		// 추출하고자하는 인덱스의 값의 범위는
 		// 0 ~ (문자열의 길이 -1)까지 매번 1씩 증가
 		Scanner sc = new Scanner(System.in);
 			System.out.print("문자열 입력 : ");
